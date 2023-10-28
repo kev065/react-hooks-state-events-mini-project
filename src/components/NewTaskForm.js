@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-// This is the NewTaskForm component. It receives two props: onTaskFormSubmit, a function that will be called when a new task is submitted, and categories, an array of categories.
+// This is the NewTaskForm component function. It receives two props: onTaskFormSubmit, a function that will be called when a new task is submitted, and categories, an array of categories.
 function NewTaskForm({onTaskFormSubmit,categories}) {
   
 

@@ -10,13 +10,13 @@ function App() {
   const [categories, setCategories] = useState(CATEGORIES)
   const [selectedCategoryButton, setSelectedCategoryButton] = useState('All')
   
-// Adds a new item to the list of tasks using the spread operator '...' to add a new task to the existing ones
+// Adds a new item to the list of tasks using the spread operator '...' to add a new task to the existing ones.
   function addNewItemtoList(newItem){
     setTask([...task,newItem])
   }
 
 
-// Removes an item from the list of tasks using the filter method. This creates a new array without the deleted item
+// Removes an item from the list of tasks using the filter method. This creates a new array without the deleted item.
   function deletedItem(deletedItem){
     setTask(task.filter((item)=>item.text !== deletedItem))
   }
