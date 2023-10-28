@@ -3,6 +3,7 @@ import React from "react";
 //This is the CategoryFilter component. It receives three props: onButton, selectedButton and categories.
 function CategoryFilter({onButton,selectedButton,categories}) {
 
+  
 // Renders the CategoryFilter component by returning a JSX element that includes a heading and a set of buttons. 
 // Each button corresponds to a category. 
 // The map function is used to create a button for each category. 
